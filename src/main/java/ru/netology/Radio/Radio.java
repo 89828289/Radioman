@@ -59,7 +59,7 @@ public class Radio {
         if (currentStation < 0) {
             return;
         }
-        if (currentStation > 100) {
+        if (currentStation > 10) {
             return;
         }
         this.currentStation = currentStation;
